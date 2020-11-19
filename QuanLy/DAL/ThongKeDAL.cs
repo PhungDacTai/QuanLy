@@ -27,6 +27,7 @@ namespace QuanLy.DAL
             con1 = con.getConnection();
             try
             {
+                //update 2
                 con1.Open();
                 string SQL = string.Format("select sum(ct.DonGiaBan*ct.SoLuongBan) as'tongtien' from HoaDon hd inner join ChiTietHoaDon ct on hd.SoHD = ct.SoHD where hd.NgayLap between '" + d1 + "' and '" + d2 + "'");
                 SqlCommand cmd = new SqlCommand(SQL, con1);

@@ -38,6 +38,7 @@ namespace QuanLy.DAL
             }
             finally
             {
+                //update 2
                 // Dong ket noi
                 con1.Close();
             }

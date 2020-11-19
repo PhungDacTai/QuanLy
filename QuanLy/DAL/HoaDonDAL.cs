@@ -10,6 +10,7 @@ using QuanLy.DTO;
 
 namespace QuanLy.DAL
 {
+
     public class HoaDonDAL
     {
         Connection connection = new Connection();
@@ -46,6 +47,7 @@ namespace QuanLy.DAL
             return connection.LoadData("Select * from Nhanvien");
         }
 
+        //update 2
         //lấy thông tin Khách hàng
         public DataTable LoadKhachHang()
         {
