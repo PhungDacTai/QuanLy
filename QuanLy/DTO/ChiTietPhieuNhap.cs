@@ -8,6 +8,7 @@ namespace QuanLy.DTO
 {
     public class ChiTietPhieuNhap
     {
+        private String Quanly;
         private string SoPhieu;
         public string soPhieu
         {
