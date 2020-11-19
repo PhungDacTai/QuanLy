@@ -45,6 +45,7 @@ namespace QuanLy.DAL
         }
         // update 3
         //sửa thể loại
+        // update 5
         public bool SuaType(TheLoai tl)
         {
             con1 = con.getConnection();

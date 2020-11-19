@@ -37,6 +37,7 @@ namespace QuanLy.DTO
             head.Font.Size = "20";
             head.HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
 
+            // update 5
             //Tao tieu de cot
             Microsoft.Office.Interop.Excel.Range cl1 = oSheet.get_Range("A3", "A3");
             cl1.Value2 = t1;

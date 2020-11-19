@@ -23,6 +23,7 @@ namespace QuanLy.DAL
 
         public DataTable LoadData(string sql)
         {
+            // update 5
             getConnection().Open();
             SqlDataAdapter da = new SqlDataAdapter(sql,con);
             DataTable dtThAccount = new DataTable();

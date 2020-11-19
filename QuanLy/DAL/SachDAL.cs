@@ -43,6 +43,7 @@ namespace QuanLy.DAL
             con1 = con.getConnection();
             try
             {
+                // update 5
                 con1.Open();
                 string SQL = string.Format("insert into Sach values(@MaSach, @TenSach, @MaTL, @MaTG, @DonGiaBan, @SoLuongCo)");
                 SqlCommand cmd = new SqlCommand(SQL, con1);

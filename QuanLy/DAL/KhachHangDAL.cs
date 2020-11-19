@@ -29,6 +29,7 @@ namespace QuanLy.DAL
             Adap.Fill(tb);
             return tb;
         }
+        // update 5
         //update 2
 
     }

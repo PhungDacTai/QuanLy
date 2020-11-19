@@ -47,6 +47,8 @@ namespace QuanLy.DAL
             return connection.LoadData("Select * from Nhanvien");
         }
 
+        // update 5
+
         //update 2
         //lấy thông tin Khách hàng
         public DataTable LoadKhachHang()
