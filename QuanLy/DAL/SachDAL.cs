@@ -44,6 +44,7 @@ namespace QuanLy.DAL
             try
             {
                 // update 5
+                // update 6
                 con1.Open();
                 string SQL = string.Format("insert into Sach values(@MaSach, @TenSach, @MaTL, @MaTG, @DonGiaBan, @SoLuongCo)");
                 SqlCommand cmd = new SqlCommand(SQL, con1);

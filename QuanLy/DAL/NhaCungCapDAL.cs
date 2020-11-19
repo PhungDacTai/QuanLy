@@ -64,6 +64,7 @@ namespace QuanLy.DAL
                     return true;
                 // update 3
                 // update 5
+                // update 6
             }
             catch (Exception)
             {

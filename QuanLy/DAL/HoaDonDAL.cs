@@ -48,6 +48,7 @@ namespace QuanLy.DAL
         }
 
         // update 5
+        // update 6
 
         //update 2
         //lấy thông tin Khách hàng

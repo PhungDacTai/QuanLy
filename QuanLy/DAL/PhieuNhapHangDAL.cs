@@ -41,6 +41,7 @@ namespace QuanLy.DAL
 
         // update 3
         // update 5
+        // update 6
         //Lấy thông tin sách
         public DataTable LoadSach()
         {

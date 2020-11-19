@@ -19,7 +19,7 @@ namespace QuanLy.DAL
             con = new SqlConnection(st);
             return con;
         }
-        // update 3
+        // update 6
 
         public DataTable LoadData(string sql)
         {
