@@ -28,6 +28,7 @@ namespace QuanLy.DAL
                 da.Fill(dt);
                 if (dt != null)
                 {
+                    // update 3
                     foreach (DataRow dr in dt.Rows)
                     {
                         LoaiTaiKhoan = dr["LoaiTaiKhoan"].ToString();

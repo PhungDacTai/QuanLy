@@ -43,6 +43,7 @@ namespace QuanLy.DAL
             }
             return false;
         }
+        // update 3
         //sửa thể loại
         public bool SuaType(TheLoai tl)
         {

@@ -62,7 +62,7 @@ namespace QuanLy.DAL
 
                 if (cmd.ExecuteNonQuery() > 0)
                     return true;
-
+                // update 3
             }
             catch (Exception)
             {
