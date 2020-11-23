@@ -11,7 +11,7 @@ namespace QuanLy.DTO
 
 
         private string UserName;
-        
+        private string Fullname;
         public string userName
         {
             get { return UserName; }
