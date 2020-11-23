@@ -9,7 +9,7 @@ namespace QuanLy.DTO
    public  class Account
     {
 
-
+        private string name;
         private string UserName;
         private string Fullname;
         public string userName
