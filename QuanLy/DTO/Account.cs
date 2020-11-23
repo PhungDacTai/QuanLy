@@ -31,6 +31,9 @@ namespace QuanLy.DTO
             get { return LoaiTaiKhoan; }
             set { LoaiTaiKhoan = value; }
         }
+
+        public string Fullname1 { get => Fullname; set => Fullname = value; }
+
         public Account(string UserName, string PassWord, string LoaiTaiKhoan)
         {
             
