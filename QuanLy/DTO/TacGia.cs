@@ -9,7 +9,7 @@ namespace QuanLy.DTO
    public  class  TacGia
     {
         private string nanme;
-        private string MaTG;
+        
         public string maTG
         {
             get { return MaTG; }
