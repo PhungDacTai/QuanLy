@@ -67,7 +67,6 @@ namespace QuanLy.BUL
         //Cập nhật số lượng sp
         public bool UpDateSLBan(DataTable tb)
         {
-            
             int SLCu = 0;
             int SLMoi = 0;
             DataTable tbSach = new DataTable();
@@ -88,6 +87,7 @@ namespace QuanLy.BUL
             }
             return true;
         }
+        //haha
 
         public DataTable SearchBill(string SoHD, string MaNV)
         {
