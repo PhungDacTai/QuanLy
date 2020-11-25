@@ -87,6 +87,7 @@ namespace QuanLy.BUL
             }
             return true;
         }
+        //haha
 
         public DataTable SearchBill(string SoHD, string MaNV)
         {
