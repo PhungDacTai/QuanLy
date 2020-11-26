@@ -101,7 +101,8 @@ namespace QuanLy.DTO
 
             //lấy vùng du lieu
             Microsoft.Office.Interop.Excel.Range range = oSheet.get_Range(c1, c2);
-            //Điền dữ liệu vào ùng đã thiết lập
+            //Điền dữ liệu vào vùng đã thiết lập
+            //Lấy dữ liệu từ data gridview
             range.Value2 = arr;
             //kẻ viền
             range.Borders.LineStyle = Microsoft.Office.Interop.Excel.Constants.xlSolid;

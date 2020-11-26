@@ -11,10 +11,8 @@ using QuanLy.DTO;
 
 namespace QuanLy.BUL
 {
-    private int a = 1;
     class LoginBUL
     {
-        //BUL xu ly cac nghiep vu chinh nhu insert, update, delete, retrieve
         LoginDAL login = new LoginDAL();
         Connection connection = new Connection();
         public string getLogin(string UserName, string PassWord)
@@ -24,12 +22,8 @@ namespace QuanLy.BUL
         }
         public DataTable getAccount()
         {
-            if(a==1)
-                return login.LoadData();
-            else
-                return -1;
+            return login.LoadData();
         }
-            
         public bool themTaiKhoan(Account Acc)
         {
             return login.themAccount(Acc);
