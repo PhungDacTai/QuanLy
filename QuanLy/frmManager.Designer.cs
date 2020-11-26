@@ -55,8 +55,9 @@
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(977, 148);
+            this.panel1.Size = new System.Drawing.Size(1300, 182);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -64,9 +65,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(444, 9);
+            this.label1.Location = new System.Drawing.Point(592, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(303, 57);
+            this.label1.Size = new System.Drawing.Size(379, 72);
             this.label1.TabIndex = 5;
             this.label1.Text = "Quản Lý Nhà Sách";
             // 
@@ -77,10 +79,10 @@
             this.btnEditAccount.ForeColor = System.Drawing.Color.Black;
             this.btnEditAccount.Image = global::QuanLy.Properties.Resources.edit;
             this.btnEditAccount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditAccount.Location = new System.Drawing.Point(604, 72);
-            this.btnEditAccount.Margin = new System.Windows.Forms.Padding(10, 25, 3, 3);
+            this.btnEditAccount.Location = new System.Drawing.Point(805, 89);
+            this.btnEditAccount.Margin = new System.Windows.Forms.Padding(13, 31, 4, 4);
             this.btnEditAccount.Name = "btnEditAccount";
-            this.btnEditAccount.Size = new System.Drawing.Size(168, 59);
+            this.btnEditAccount.Size = new System.Drawing.Size(224, 73);
             this.btnEditAccount.TabIndex = 3;
             this.btnEditAccount.Text = "            Sửa Tài Khoản";
             this.btnEditAccount.UseVisualStyleBackColor = false;
@@ -93,10 +95,10 @@
             this.btnClose.ForeColor = System.Drawing.Color.Black;
             this.btnClose.Image = global::QuanLy.Properties.Resources.logout;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(409, 72);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(10, 25, 3, 3);
+            this.btnClose.Location = new System.Drawing.Point(545, 89);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(13, 31, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(137, 59);
+            this.btnClose.Size = new System.Drawing.Size(183, 73);
             this.btnClose.TabIndex = 2;
             this.btnClose.Text = "           Đăng Xuất";
             this.btnClose.UseVisualStyleBackColor = false;
@@ -106,10 +108,10 @@
             // 
             this.panel2.BackgroundImage = global::QuanLy.Properties.Resources.logo;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(25, 21);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.panel2.Location = new System.Drawing.Point(33, 26);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 12, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(148, 110);
+            this.panel2.Size = new System.Drawing.Size(197, 135);
             this.panel2.TabIndex = 0;
             // 
             // btnLogin
@@ -119,10 +121,10 @@
             this.btnLogin.ForeColor = System.Drawing.Color.Black;
             this.btnLogin.Image = global::QuanLy.Properties.Resources.Login;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogin.Location = new System.Drawing.Point(212, 72);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(5, 25, 3, 3);
+            this.btnLogin.Location = new System.Drawing.Point(283, 89);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(7, 31, 4, 4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(141, 59);
+            this.btnLogin.Size = new System.Drawing.Size(188, 73);
             this.btnLogin.TabIndex = 1;
             this.btnLogin.Text = "          Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -132,11 +134,12 @@
             // 
             this.palHienThi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.palHienThi.Dock = System.Windows.Forms.DockStyle.Right;
-            this.palHienThi.Location = new System.Drawing.Point(194, 148);
-            this.palHienThi.MaximumSize = new System.Drawing.Size(783, 514);
-            this.palHienThi.MinimumSize = new System.Drawing.Size(783, 514);
+            this.palHienThi.Location = new System.Drawing.Point(256, 182);
+            this.palHienThi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.palHienThi.MaximumSize = new System.Drawing.Size(1044, 633);
+            this.palHienThi.MinimumSize = new System.Drawing.Size(1044, 633);
             this.palHienThi.Name = "palHienThi";
-            this.palHienThi.Size = new System.Drawing.Size(783, 514);
+            this.palHienThi.Size = new System.Drawing.Size(1044, 633);
             this.palHienThi.TabIndex = 3;
             this.palHienThi.Paint += new System.Windows.Forms.PaintEventHandler(this.palHienThi_Paint);
             // 
@@ -149,9 +152,10 @@
             this.panel3.Controls.Add(this.btnQuanLy);
             this.panel3.Controls.Add(this.btnTrangChu);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 148);
+            this.panel3.Location = new System.Drawing.Point(0, 182);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 514);
+            this.panel3.Size = new System.Drawing.Size(267, 623);
             this.panel3.TabIndex = 2;
             // 
             // btnTimKiem
@@ -159,10 +163,10 @@
             this.btnTimKiem.BackColor = System.Drawing.Color.White;
             this.btnTimKiem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.Color.Black;
-            this.btnTimKiem.Location = new System.Drawing.Point(3, 162);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.btnTimKiem.Location = new System.Drawing.Point(4, 199);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(4, 31, 4, 4);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(185, 53);
+            this.btnTimKiem.Size = new System.Drawing.Size(247, 65);
             this.btnTimKiem.TabIndex = 5;
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = false;
@@ -173,10 +177,10 @@
             this.btnThongKe.BackColor = System.Drawing.Color.White;
             this.btnThongKe.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThongKe.ForeColor = System.Drawing.Color.Black;
-            this.btnThongKe.Location = new System.Drawing.Point(3, 324);
-            this.btnThongKe.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.btnThongKe.Location = new System.Drawing.Point(4, 399);
+            this.btnThongKe.Margin = new System.Windows.Forms.Padding(4, 31, 4, 4);
             this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(185, 53);
+            this.btnThongKe.Size = new System.Drawing.Size(247, 65);
             this.btnThongKe.TabIndex = 4;
             this.btnThongKe.Text = "Thống Kê";
             this.btnThongKe.UseVisualStyleBackColor = false;
@@ -187,10 +191,10 @@
             this.btnKinhDoanh.BackColor = System.Drawing.Color.White;
             this.btnKinhDoanh.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKinhDoanh.ForeColor = System.Drawing.Color.Black;
-            this.btnKinhDoanh.Location = new System.Drawing.Point(3, 81);
-            this.btnKinhDoanh.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.btnKinhDoanh.Location = new System.Drawing.Point(4, 100);
+            this.btnKinhDoanh.Margin = new System.Windows.Forms.Padding(4, 31, 4, 4);
             this.btnKinhDoanh.Name = "btnKinhDoanh";
-            this.btnKinhDoanh.Size = new System.Drawing.Size(185, 53);
+            this.btnKinhDoanh.Size = new System.Drawing.Size(247, 65);
             this.btnKinhDoanh.TabIndex = 1;
             this.btnKinhDoanh.Text = "Hóa Đơn";
             this.btnKinhDoanh.UseVisualStyleBackColor = false;
@@ -201,10 +205,10 @@
             this.btnQuanLy.BackColor = System.Drawing.Color.White;
             this.btnQuanLy.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLy.ForeColor = System.Drawing.Color.Black;
-            this.btnQuanLy.Location = new System.Drawing.Point(3, 243);
-            this.btnQuanLy.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.btnQuanLy.Location = new System.Drawing.Point(4, 299);
+            this.btnQuanLy.Margin = new System.Windows.Forms.Padding(4, 31, 4, 4);
             this.btnQuanLy.Name = "btnQuanLy";
-            this.btnQuanLy.Size = new System.Drawing.Size(185, 53);
+            this.btnQuanLy.Size = new System.Drawing.Size(247, 65);
             this.btnQuanLy.TabIndex = 3;
             this.btnQuanLy.Text = "Quản Lý";
             this.btnQuanLy.UseVisualStyleBackColor = false;
@@ -215,10 +219,10 @@
             this.btnTrangChu.BackColor = System.Drawing.Color.White;
             this.btnTrangChu.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrangChu.ForeColor = System.Drawing.Color.Black;
-            this.btnTrangChu.Location = new System.Drawing.Point(3, 0);
-            this.btnTrangChu.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
+            this.btnTrangChu.Location = new System.Drawing.Point(4, 0);
+            this.btnTrangChu.Margin = new System.Windows.Forms.Padding(4, 49, 4, 4);
             this.btnTrangChu.Name = "btnTrangChu";
-            this.btnTrangChu.Size = new System.Drawing.Size(185, 53);
+            this.btnTrangChu.Size = new System.Drawing.Size(247, 65);
             this.btnTrangChu.TabIndex = 2;
             this.btnTrangChu.Text = "Trang Chủ";
             this.btnTrangChu.UseVisualStyleBackColor = false;
@@ -226,14 +230,15 @@
             // 
             // frmManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(977, 662);
+            this.ClientSize = new System.Drawing.Size(1300, 805);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.palHienThi);
             this.Controls.Add(this.panel1);
-            this.MaximumSize = new System.Drawing.Size(993, 701);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1318, 852);
             this.Name = "frmManager";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
