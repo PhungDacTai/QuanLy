@@ -13,6 +13,8 @@ namespace QuanLy.BUL
 {
     class LoginBUL
     {
+
+        //anh tài
         LoginDAL login = new LoginDAL();
         Connection connection = new Connection();
         public string getLogin(string UserName, string PassWord)
