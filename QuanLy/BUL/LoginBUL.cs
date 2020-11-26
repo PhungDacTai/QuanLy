@@ -14,6 +14,7 @@ namespace QuanLy.BUL
     private int a = 1;
     class LoginBUL
     {
+        //Ahihi
         //BUL xu ly cac nghiep vu chinh nhu insert, update, delete, retrieve
         LoginDAL login = new LoginDAL();
         Connection connection = new Connection();
