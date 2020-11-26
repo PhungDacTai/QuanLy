@@ -8,6 +8,7 @@ namespace QuanLy.DTO
 {
    public  class Account
     {
+        //tinnt
         private string UserName;
 
         public string userName
