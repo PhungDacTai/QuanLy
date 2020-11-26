@@ -11,6 +11,7 @@ namespace QuanLy.DAL
 {
     class NhaCungCapDAL
     {
+        //up1
         Connection con = new Connection();
         SqlConnection con1;
         public DataTable LoadNhaCungCap()
