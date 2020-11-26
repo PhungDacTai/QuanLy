@@ -12,6 +12,7 @@ using QuanLy.DTO;
 namespace QuanLy.BUL
 {
     class LoginBUL
+        //accccc
     {
         LoginDAL login = new LoginDAL();
         Connection connection = new Connection();

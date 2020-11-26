@@ -8,6 +8,7 @@ namespace QuanLy.DTO
 {
   public  class NhaCungCap
     {
+        
         private string MaNCC;
         public string maNCC
         {
