@@ -136,7 +136,7 @@ namespace QuanLy.DAL
             }
             catch (Exception )
             {
-
+                Console.Write("đã sửa");
             }
             finally
             {
