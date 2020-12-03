@@ -55,7 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUL\Class1.cs" />
     <Compile Include="BUL\HoaDonBUL.cs" />
     <Compile Include="BUL\KhachHangBUL.cs" />
     <Compile Include="BUL\LoginBUL.cs" />
