@@ -13,6 +13,7 @@ namespace QuanLy.BUL
     {
 
         //undo code
+        //vi du
         HoaDonDAL HD = new HoaDonDAL();
         public DataTable loadChiTietHoaDon(string SHD)
         {
