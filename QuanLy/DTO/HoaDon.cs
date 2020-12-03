@@ -8,6 +8,8 @@ namespace QuanLy.DTO
 {
     public class HoaDon
     {
+
+        private string Tacgia;
         private string SHD;
         public string shd
         {

@@ -517,7 +517,7 @@ namespace QuanLy
             txtDiaChiNCC.Text = dGV_NCC.CurrentRow.Cells["DiaChi1"].Value.ToString();
             txtSDTncc.Text = dGV_NCC.CurrentRow.Cells["SDT1"].Value.ToString();
         }
-
+        //haha
         private void btnXuatDuLieu_Click(object sender, EventArgs e)
         {
             ExportToExcel excel = new ExportToExcel();

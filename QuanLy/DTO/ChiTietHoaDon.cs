@@ -8,6 +8,7 @@ namespace QuanLy.DTO
 {
    public class ChiTietHoaDon 
     {
+        private string account;
         private string SHD;   
         public string shd
         {

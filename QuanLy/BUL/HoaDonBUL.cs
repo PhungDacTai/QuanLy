@@ -15,7 +15,7 @@ namespace QuanLy.BUL
         public DataTable loadChiTietHoaDon(string SHD)
         {
             return HD.Load(SHD);
-        }
+        }//name
         public DataTable LoadAll()
         {
             return HD.LoadAll();
