@@ -11,6 +11,7 @@ namespace QuanLy.DAL
 {
   public  class Connection
     {
+        //Test 1
         SqlConnection con;
 
         public SqlConnection getConnection()
