@@ -8,10 +8,11 @@ namespace QuanLy.DTO
 {
    public  class Account
     {
-
+<<<<<<< HEAD
+=======
         //bé tài
         private string name;
-
+>>>>>>> 0b2375563a707c91935198cdec922f17540baf2c
         private string UserName;
 
         public string userName

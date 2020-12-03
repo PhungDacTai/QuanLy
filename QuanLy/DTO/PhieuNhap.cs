@@ -9,10 +9,6 @@ namespace QuanLy.DTO
    public class PhieuNhap
     {
         private string SoPhieu;
-
-        private string Price;
-        public string Price2 { get => Price; set => Price = value; }
-
         public string soPhieu
         {
             get { return SoPhieu; }
@@ -36,10 +32,6 @@ namespace QuanLy.DTO
             get { return NgayNhap; }
             set { NgayNhap = value; }
         }
-
-        //public string Price1 { get => Price2; set => Price2 = value; }
-       
-
         //constructor 
         public PhieuNhap() { }
         public PhieuNhap(string SoPhieu, string NhaCungCap, string NhanVien, DateTime NgayNhap)
