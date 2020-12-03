@@ -26,6 +26,11 @@ namespace QuanLy
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
+            //hello
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }

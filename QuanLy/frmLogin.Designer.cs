@@ -98,7 +98,7 @@
             this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(181, 22);
+            this.txtPass.Size = new System.Drawing.Size(181, 26);
             this.txtPass.TabIndex = 1;
             this.txtPass.UseSystemPasswordChar = true;
             // 
@@ -108,7 +108,7 @@
             this.label2.Location = new System.Drawing.Point(13, 19);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 16);
+            this.label2.Size = new System.Drawing.Size(89, 19);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mật Khẩu:";
             // 
@@ -128,7 +128,7 @@
             this.txtUserName.Location = new System.Drawing.Point(147, 14);
             this.txtUserName.Margin = new System.Windows.Forms.Padding(4);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(181, 22);
+            this.txtUserName.Size = new System.Drawing.Size(181, 26);
             this.txtUserName.TabIndex = 1;
             // 
             // label1
@@ -137,13 +137,14 @@
             this.label1.Location = new System.Drawing.Point(13, 17);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 16);
+            this.label1.Size = new System.Drawing.Size(136, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên Đăng Nhập:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(556, 266);
             this.Controls.Add(this.panel1);
