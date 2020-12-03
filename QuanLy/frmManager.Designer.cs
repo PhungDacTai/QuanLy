@@ -55,7 +55,7 @@
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1300, 182);
             this.panel1.TabIndex = 0;
@@ -135,7 +135,7 @@
             this.palHienThi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.palHienThi.Dock = System.Windows.Forms.DockStyle.Right;
             this.palHienThi.Location = new System.Drawing.Point(256, 182);
-            this.palHienThi.Margin = new System.Windows.Forms.Padding(4);
+            this.palHienThi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.palHienThi.MaximumSize = new System.Drawing.Size(1044, 633);
             this.palHienThi.MinimumSize = new System.Drawing.Size(1044, 633);
             this.palHienThi.Name = "palHienThi";
@@ -153,7 +153,7 @@
             this.panel3.Controls.Add(this.btnTrangChu);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 182);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(267, 623);
             this.panel3.TabIndex = 2;
@@ -237,7 +237,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.palHienThi);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximumSize = new System.Drawing.Size(1318, 852);
             this.Name = "frmManager";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;

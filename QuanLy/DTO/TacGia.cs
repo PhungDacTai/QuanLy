@@ -8,7 +8,6 @@ namespace QuanLy.DTO
 {
    public  class  TacGia
     {
-        
         private string MaTG;
         public string maTG
         {
