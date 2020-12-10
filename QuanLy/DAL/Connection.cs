@@ -16,6 +16,7 @@ namespace QuanLy.DAL
         //2
         //3
 
+        //quang
         //4
 
         public SqlConnection getConnection()
