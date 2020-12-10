@@ -13,6 +13,7 @@ namespace QuanLy.DAL
     {
         SqlConnection con;
 
+        //Quang 1123
         public SqlConnection getConnection()
         {
             string st = ConfigurationManager.ConnectionStrings["ManagerBook"].ToString();
