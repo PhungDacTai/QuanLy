@@ -12,6 +12,7 @@ namespace QuanLy.DAL
   public  class Connection
     {
         SqlConnection con;
+        //1
 
         public SqlConnection getConnection()
         {
