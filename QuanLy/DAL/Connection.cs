@@ -16,6 +16,8 @@ namespace QuanLy.DAL
         //2
         //3
 
+        //4
+
         public SqlConnection getConnection()
         {
             string st = ConfigurationManager.ConnectionStrings["ManagerBook"].ToString();
