@@ -11,6 +11,8 @@ namespace QuanLy.BUL
 {
   public  class HoaDonBUL
     {
+        // thêm thuộc tính
+        private string name;
         HoaDonDAL HD = new HoaDonDAL();
         public DataTable loadChiTietHoaDon(string SHD)
         {
