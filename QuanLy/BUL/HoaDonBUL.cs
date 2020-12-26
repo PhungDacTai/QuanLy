@@ -12,8 +12,7 @@ namespace QuanLy.BUL
   public  class HoaDonBUL
     {
 
-        //undo code
-        //vi du
+        // Thay đổi code
         HoaDonDAL HD = new HoaDonDAL();
         public DataTable loadChiTietHoaDon(string SHD)
         {
