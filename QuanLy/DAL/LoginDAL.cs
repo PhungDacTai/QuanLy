@@ -13,6 +13,9 @@ namespace QuanLy.DAL
 {
     public class LoginDAL
     {
+        /// <summary>
+        /// Tran Van Quang
+        /// </summary>
         Connection connection = new Connection();
         SqlConnection con1 ;
         public string getID(string username, string pass)
