@@ -63,6 +63,7 @@
     <Compile Include="BUL\PhieuNhapHangBUL.cs" />
     <Compile Include="BUL\SachBUL.cs" />
     <Compile Include="BUL\TacGiaBUL.cs" />
+    <Compile Include="BUL\test.cs" />
     <Compile Include="BUL\TheLoaiBUL.cs" />
     <Compile Include="BUL\ThongKeBUL.cs" />
     <Compile Include="DAL\Connection.cs" />
