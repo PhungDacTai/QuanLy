@@ -12,8 +12,10 @@ using System.Windows.Forms;
 namespace QuanLy.DAL
 {
     public class LoginDAL
-//TranQuang
     {
+        /// <summary>
+        /// //Tran Van Quang
+        /// </summary>
         Connection connection = new Connection();
         SqlConnection con1 ;
         public string getID(string username, string pass)
@@ -29,6 +31,8 @@ namespace QuanLy.DAL
                 da.Fill(dt);
                 if (dt != null)
                 {
+                    // update 3
+                    // update 5
                     foreach (DataRow dr in dt.Rows)
                     {
                         LoaiTaiKhoan = dr["LoaiTaiKhoan"].ToString();
